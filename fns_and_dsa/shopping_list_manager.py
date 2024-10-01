@@ -1,7 +1,8 @@
 # shopping_list_manager.py
 
 def display_menu():
-    print("\nShopping List Manager")
+    # Ensure exact match for the title
+    print(f"Shopping List Manager")  # Using f-string to match the expected format
     print("1. Add item")
     print("2. Remove item")
     print("3. View list")
